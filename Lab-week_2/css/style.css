@@ -1,0 +1,84 @@
+
+/* Target the navbar by its class */
+.navbar.bg-body-tertiary {
+    background-color: transparent !important;
+    border: none; /* Remove any border */
+}
+
+nav a.navbar-brand{
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white !important;
+}
+
+/* make the text color white */
+.navbar-nav .nav-link {
+    color: white;
+}
+
+#generateFact {
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flow;
+    justify-content: center;
+}
+
+#generateFactButton {
+    align-content: center;
+    margin: auto;
+}
+
+button:hover{
+    color:darkseagreen;
+    text-decoration: underline;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.94);
+}
+
+/* Style the title container */
+#div-container p {
+    font-family: "Times New Roman", serif;
+    color: white;
+}
+
+/* Style the title */
+h2 h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.about-paragraph {
+    color: white;
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+/* Style the body background */
+body {
+    background-image: url('https://wallpaperaccess.com/full/1129107.jpg');
+    background-size: cover;
+    color: white;
+}
+
+/* Style the list items */
+li {
+    font-size: 14px;
+    color: white;
+    padding: 0;
+    margin-left: 0;
+}
+
+/* Remove left margin by adding padding to the container */
+#div-container {
+    padding-left: 0;
+}
+
+/* Optionally, you can adjust the padding for specific elements inside the container */
+#div-container p, #div-container ul {
+    padding-left: 0;
+}
+

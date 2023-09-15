@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include Bootstrap CSS from local directory -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" >
+    <div class="container-fluid" id="content">
+        <a class="navbar-brand" href="#" id="reloadPage">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="about.html">About</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="my-recipes.html">Favorite Recipes and Restaurant Recs</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<h2 style="color: white; text-align: center"> Hello World, from Jessica!
+    <meta charset="UTF-8">
+</h2>
+<h3 style="color: white; text-align: center">Navigate to the various sections to learn about me and recipes I enjoy...</h3>
+<div class="fun-fact-container-fluid text-center" id="generateFact">
+    <div class="d-flex justify-content-center">
+        <button class="btn-primary" id="generateFactButton" type="button">
+            <span class="btn-primary-icon"></span>
+            Harvard Fun Fact Generator
+        </button>
+    </div>
+</div>
+<script src="js/dom-example.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // JavaScript to reload the page when "Navbar" link is clicked
+    document.getElementById("reloadPage").addEventListener("click", function() {
+        location.reload();
+    });
+</script>
+</body>
+</html>
